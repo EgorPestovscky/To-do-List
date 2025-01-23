@@ -1,0 +1,132 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+
+/*---------- style reset -----------*/
+
+/*---------- style to-do-list -----------*/
+
+.container {
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    min-height: 200px;
+    border-radius: 15px;
+    border: 2px solid rgb(35, 207, 255);
+}
+
+.task__list {
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(35, 207, 255);
+    border-radius: 15px;
+    margin: 10px 10px;
+    margin-bottom: 30px;
+    gap: 0px 10px;
+}
+
+.state {
+    background-color: white;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.state:hover {
+    background-color: rgb(216, 216, 208);
+}
+
+.state-complete {
+    background-color: greenyellow;
+}
+
+.task__name {
+    font-size: 19px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.task__delete__button {
+    width: 30px;
+}
+
+.task__delete {
+    background-color: rgb(255, 59, 59);
+    border-style: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.task__delete:hover {
+    background-color: rgb(229, 24, 24);;
+}
+
+.task__delete:active {
+    background-color: brown;
+    width: 25px;
+    height: 25px;
+}
+
+.buttons__add__remove {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 0px 10px;
+}
+
+.button__first, .button__second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+}
+
+
+.add__task, .remove__task {
+    border-style: none;
+    background-color: rgb(35, 207, 255);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.add__task:hover, .remove__task:hover {
+    background-color: rgb(29, 173, 213);
+}
+
+.add__task:active, .remove__task:active {
+    background-color: rgb(33, 134, 162);
+    width: 130px;
+    height: 35px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
