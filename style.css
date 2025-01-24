@@ -56,8 +56,16 @@ html {
 }
 
 .task__name {
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
     font-size: 19px;
     font-weight: 600;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -79,8 +87,7 @@ html {
 
 .task__delete:active {
     background-color: brown;
-    width: 25px;
-    height: 25px;
+    transform: scale(0.80);
 }
 
 .buttons__add__remove {
@@ -118,10 +125,9 @@ html {
 
 .add__task:active, .remove__task:active {
     background-color: rgb(33, 134, 162);
-    width: 130px;
-    height: 35px;
-    font-size: 13px;
+    transform: scale(0.80);
 }
+
 
 
 
